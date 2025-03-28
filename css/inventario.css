@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+    --vermelho1: #591830;
+    --vermelho2: #8D2F3F;
+    --vermelho3: #FD4255;
+    --verde1: #207F65;
+    --verde2: #30F2BB;
+}
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 80%;
+  max-width: 1000px;
+  height: 80vh;
+  margin-top: 10vh;
+}
+main header {
+  width: 100%;
+  height: 12vh;
+  background-color: #333;
+}
+#logo-header {
+  width: 20%;
+  height: 10vh;
+  margin-top: 1vh;
+  margin-left: 1%;
+  float: left;
+}
+#logo-header img {
+  height: 10vh;
+}
+main nav {
+  width: 100%;
+  height: 7vh;
+  background-color: #FF5252;
+}
+main nav ul {
+  float: left;
+  list-style: none;
+  width: 100%;
+}
+main nav ul li {
+  display: inline;
+}
+main ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 3vh;
+  /* background-color: #000; */
+  padding: 2vh 2%;
+  margin-left: 0%;
+  transition: all 1s;
+  float: left;
+}
+main ul li a:hover {
+    color:#FF5252;
+    background-color: #FFF;
+}
+main section {
+  width: 100%;
+  height: 55vh;
+  background-color: #fff;
+}
+main section article {
+  width: 40%;
+  height: 50vh;
+  float: left;
+  margin-left: 6.6%;
+  margin-top: 2.5vh;
+}
+main section article h1{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+  /* margin-top: 0vh; */
+  color: #333;
+}
+main section article iframe{
+  height: 35vh;
+}
+#h1-video{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+main section article p{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.1em;
+  color: #333;
+}
+main section article button{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2vh;
+  height: 6vh;
+  border:0;
+  background: #FF5252;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+main footer {
+  width: 100%;
+  height: 6vh;
+  background-color: #000;
+  background-image: url('../img/riot-logo-cinza.png');
+  background-size: 9%;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+}
+main footer small{
+  text-align: center;
+  color:#555;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 6vh;
+  font-size: 0.7em;
+  width: 100%;
+  float: left;
+}
